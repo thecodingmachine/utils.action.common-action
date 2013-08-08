@@ -5,9 +5,9 @@ This package contains a set of classes commonly implementing the [ActionInterfac
 
 Here is a list of all classes available in this package:
 
-- **FillHtmlBlock**: an object representing a GET parameter passed in the web query.
+- **Redirect**: an object used to perform an HTTP redirect.
 
 Mouf package
 ------------
 
-This package is part of Mouf (http://mouf-php.com), an effort to ensure good developing practices by providing a graphical dependency injection framework.
+This package is part of [Mouf](http://mouf-php.com), an effort to ensure good developing practices by providing a graphical dependency injection framework.

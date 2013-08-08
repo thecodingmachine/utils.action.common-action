@@ -8,12 +8,11 @@ use Mouf\Html\HtmlElement\HtmlElementInterface;
 use Mouf\Utils\Actions\ActionInterface;
 
 /**
- * This action puts into an HtmlBlock one or many HtmlElement.
- * Very useful to add some content to blocks before triggering a render.
+ * This action performs an HTTP redirect.
  * 
  * @author David Négrier
  */
-class FillHtmlBlock implements ActionInterface {
+class Redirect implements ActionInterface {
 	
 	private $targetBlock;
 	

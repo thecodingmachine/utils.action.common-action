@@ -1,11 +1,11 @@
-Common classes for ValueInterface
-=================================
+Common classes for ActionInterface
+==================================
 
-This package contains a set of classes commonly implementing the [ValueInterface interface](http://mouf-php.com/packages/mouf/utils.common.value-interface)
+This package contains a set of classes commonly implementing the [ActionInterface interface](http://mouf-php.com/packages/mouf/utils.action.action-interface)
 
 Here is a list of all classes available in this package:
 
-- **GetParamValue**: an object representing a GET parameter passed in the web query.
+- **FillHtmlBlock**: an object representing a GET parameter passed in the web query.
 
 Mouf package
 ------------

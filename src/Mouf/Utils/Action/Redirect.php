@@ -2,6 +2,7 @@
 namespace Mouf\Utils\Action;
 
 use Mouf\Utils\Value\ValueInterface;
+use Mouf\Utils\Value\ValueUtils;
 
 /**
  * This action performs an HTTP redirect.
@@ -32,9 +33,9 @@ class Redirect implements ActionInterface {
 			throw new \Exception("No URL configured for redirection.");
 		}
 		if (strpos($this->url, '/') === 0 || strpos($this->url, 'http://') === 0 || strpos($this->url, 'https://') === 0) {
-			$url = ValueInterface::val($this->url);
+			$url = ValueUtils::val($this->url);
 		} else {
-			$url = ROOT_URL.ValueInterface::val($this->url);
+			$url = ROOT_URL.ValueUtils::val($this->url);
 		}
 		header("Location: ".$url);
 	}

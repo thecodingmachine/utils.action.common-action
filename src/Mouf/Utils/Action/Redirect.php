@@ -38,6 +38,5 @@ class Redirect implements ActionInterface {
 			$url = ROOT_URL.ValueUtils::val($this->url);
 		}
 		header("Location: ".$url);
-        exit;
 	}
 }
